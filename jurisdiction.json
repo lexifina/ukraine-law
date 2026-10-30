@@ -1,0 +1,11 @@
+{
+  "path": "ua",
+  "code": "UA",
+  "name": "Ukraine",
+  "level": "country",
+  "repo": "https://github.com/lexifina/ukraine-law",
+  "build": "first build: Constitution (1996), revision of 2020-01-01 from the Verkhovna Rada (1 version, oldest available)",
+  "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
+  "register_date": "2026-10-28",
+  "sources": 1
+}

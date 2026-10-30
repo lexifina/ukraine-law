@@ -1,0 +1,75 @@
+{
+ "country": "UA",
+ "acts": [
+  {
+   "slug": "constitution",
+   "short": "Конституція",
+   "title": "Конституція України (прийнята 28 червня 1996 року), чинна редакція",
+   "url": "https://zakon.rada.gov.ua/laws/show/254%D0%BA/96-%D0%B2%D1%80",
+   "versions": [
+    {
+     "from": "2020-01-01",
+     "units": 168,
+     "source_url": "https://web.archive.org/web/20261023112930/https://zakon.rada.gov.ua/laws/show/254%D0%BA/96-%D0%B2%D1%80",
+     "sha256": "48e9525e48a0f0b83d5e3e216d7efde90924aa4c12feeb73672ecce2a183482b"
+    }
+   ]
+  },
+  {
+   "slug": "criminal-code",
+   "short": "КК",
+   "title": "Кримінальний кодекс України (Закон № 2341-III від 5 квітня 2001 року)",
+   "url": "https://zakon.rada.gov.ua/laws/show/2341-14",
+   "versions": [
+    {
+     "from": "2026-09-18",
+     "units": 540,
+     "source_url": "https://zakon.rada.gov.ua/laws/show/2341-14",
+     "sha256": "cec340dde52bbf4691f72497da1c0a345389ffdd27a20957ae0ef745ae84c0ea"
+    }
+   ]
+  },
+  {
+   "slug": "civil-code",
+   "short": "ЦК",
+   "title": "Цивільний кодекс України (Закон № 435-IV від 16 січня 2003 року)",
+   "url": "https://zakon.rada.gov.ua/laws/show/435-15",
+   "versions": [
+    {
+     "from": "2026-08-05",
+     "units": 1314,
+     "source_url": "https://zakon.rada.gov.ua/laws/show/435-15",
+     "sha256": "4ed0596e35aac19bf20d45f7bc86c33d5d5f6a865ab9592999a1df2a0e804a22"
+    }
+   ]
+  },
+  {
+   "slug": "criminal-procedure-code",
+   "short": "КПК",
+   "title": "Кримінальний процесуальний кодекс України (Закон № 4651-VI від 13 квітня 2012 року)",
+   "url": "https://zakon.rada.gov.ua/laws/show/4651-17",
+   "versions": [
+    {
+     "from": "2026-07-21",
+     "units": 679,
+     "source_url": "https://zakon.rada.gov.ua/laws/show/4651-17",
+     "sha256": "153c3b33b5d322d469d8fa2e2a1ae3fcd1375cd3184ad21691109622fc191c50"
+    }
+   ]
+  },
+  {
+   "slug": "labour-code",
+   "short": "КЗпП",
+   "title": "Кодекс законів про працю України (затверджений Законом № 322-VIII від 10 грудня 1971 року)",
+   "url": "https://zakon.rada.gov.ua/laws/show/322-08",
+   "versions": [
+    {
+     "from": "2026-07-31",
+     "units": 292,
+     "source_url": "https://zakon.rada.gov.ua/laws/show/322-08",
+     "sha256": "adb54233773045b3932793cabef857e4e02c2cd246b8441ef5a4a36e0dac3004"
+    }
+   ]
+  }
+ ]
+}

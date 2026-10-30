@@ -1,0 +1,19 @@
+The legal text is the Конституція України (adopted 28 June 1996), in the revision of 1 January 2020, as published by the
+Verkhovna Rada of Ukraine on Законодавство України (https://zakon.rada.gov.ua/laws/show/254%D0%BA/96-%D0%B2%D1%80),
+read from an Internet Archive capture of 23 October 2026, retrieved 29 October 2026. The Verkhovna Rada's open data is
+published under CC BY 4.0 (https://data.rada.gov.ua/open/main/api); the text of a law is an official document.
+
+The Кримінальний кодекс України (2341-III of 5 April 2001) is likewise from https://zakon.rada.gov.ua/laws/show/2341-14, read from an Internet Archive capture, retrieved 30 October 2026.
+
+The Цивільний кодекс України (435-IV of 16 January 2003) is likewise from https://zakon.rada.gov.ua/laws/show/435-15, read from an Internet Archive capture, retrieved 30 October 2026.
+
+The Кримінальний процесуальний кодекс України (4651-VI of 13 April 2012) and the Кодекс законів про працю України (322-VIII of 10 December 1971) are likewise from https://zakon.rada.gov.ua/laws/show/4651-17 and https://zakon.rada.gov.ua/laws/show/322-08, read from Internet Archive captures, retrieved 30 October 2026.
+
+Changes made by Lexifina: each version was converted to one Markdown file per provision, one paragraph per line;
+spacing, quotes and dashes were normalised; headings, page numbers and footnote markers were left out; and the
+versions were arranged as git commits credited to the publisher. The wording of the law was not changed. The
+publisher does not endorse this repository.
+
+Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are
+dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
