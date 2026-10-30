@@ -1,0 +1,29 @@
+{
+ "parts": {
+  "10-criminal-code.json": {
+   "acts": [
+    "criminal-code"
+   ],
+   "sha256": "d8eff4499034162a8795bf3c710593e10ef9612edea51bb302ce9b38b8146b8d"
+  },
+  "15-civil-code.json": {
+   "acts": [
+    "civil-code"
+   ],
+   "sha256": "8c0eed72509a35b10eaea4f3f352a6094d26ba13a62951b61a33f9cf4d29ca51"
+  },
+  "20-criminal-procedure-code.json": {
+   "acts": [
+    "criminal-procedure-code"
+   ],
+   "sha256": "7ac99b0f27374c8144b64e577d84317be16c819f1d113c92c0e211156fa14b85"
+  },
+  "30-labour-code.json": {
+   "acts": [
+    "labour-code"
+   ],
+   "sha256": "93d0dd6b24c3dc4d81524c36c317c9dce7a048521a4a282cfbac54f4df034429"
+  }
+ },
+ "schema": 1
+}
