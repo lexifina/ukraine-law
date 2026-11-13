@@ -1,62 +1,77 @@
-# Ukraine: law history in git
+# Україна: історія законодавства в git
+
+**Українська** · [English](README.en.md)
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="data/effort-dark.svg">
-<img alt="Ukrainian law in this repository: what it holds, changes by the year they took effect, completeness against the official sources, and the correctness of what is held" src="data/effort-light.svg" width="880">
+<source media="(prefers-color-scheme: dark)" srcset="data/uk/effort-dark.svg">
+<img alt="Законодавство України в цьому репозиторії: що в ньому є, зміни за роком набрання чинності, повнота за офіційними джерелами та точність вмісту" src="data/uk/effort-light.svg" width="880">
 </picture>
 
-Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Ukraine's national law, which global-law reads at `ukraine/national/acts/`.
+Частина проєкту [lexifina/global-law](https://github.com/lexifina/global-law), єдиної git-історії права всіх країн: це національне законодавство України, яке global-law читає за шляхом `ukraine/national/acts/`.
 
-The law of Ukraine as a git history: one file per provision, one commit per law or decision on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every paragraph; `git log` lists every change to a provision; `tools/on.py` gives the text in force on any day.
+Законодавство України як git-історія: один файл на кожне положення, один коміт на кожен закон чи рішення в день набрання ним чинності, а автор коміту — закон, яким внесено зміну. `git blame` називає закон, що стоїть за кожним абзацом; `git log` показує кожну зміну положення; `tools/on.py` видає текст, чинний на будь-який день.
 
-It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `ua/`.
+Він дотримується спільної структури [lexifina/global-law](https://github.com/lexifina/global-law), яка розміщує його за шляхом `ua/`.
 
-> **First build.** The text is the Constitution of Ukraine as published by the Verkhovna Rada on zakon.rada.gov.ua. This first build holds one version, the revision in force; the site lists earlier revisions (1996, 2006, 2010, 2011, 2013, 2014, 2016, 2019) that are not yet built, and only the statutes listed below are built.
+> **Перша збірка.** Текст — Конституція України в тому вигляді, як її опубліковано Верховною Радою на zakon.rada.gov.ua. Ця перша збірка містить одну версію — чинну редакцію; на сайті наведено попередні редакції (1996, 2006, 2010, 2011, 2013, 2014, 2016, 2019), які ще не зібрано, а із законів зібрано лише ті, що перелічені нижче.
 
-Language: the text is in Ukrainian (the official language of the act); this README is in English.
+Мова: текст українською (офіційною мовою акта); цей README — переклад англійської версії.
 
-**What is in it now**
+**Що в ньому є зараз**
 
-| Folder | Act | Versions | History |
+| Тека | Акт | Версій | Історія |
 | --- | --- | ---: | --- |
-| `constitution/` | Конституція України (1996), current revision | 1 | Oldest version available, dated 1 January 2020, the revision the Verkhovna Rada's site shows (basis: Law No. 27-IX of 3 September 2019); 161 articles with their numbered sub-articles and the transitional provisions |
-| `criminal-code/` | Кримінальний кодекс України (Закон № 2341-III від 5 квітня 2001 року) | 1 | Oldest version available, dated 18 September 2026, the revision the Verkhovna Rada's site shows (basis: Law No. 4986-IX); about 540 articles and the final and transitional provisions |
-| `civil-code/` | Цивільний кодекс України (Закон № 435-IV від 16 січня 2003 року) | 1 | Oldest version available, dated 5 August 2026, the revision the Verkhovna Rada's site shows (basis: Law No. 2541-IX); about 1,300 articles and the final provisions |
-| `criminal-procedure-code/` | Кримінальний процесуальний кодекс України (Закон № 4651-VI від 13 квітня 2012 року) | 1 | Oldest version available, dated 21 July 2026, the revision the Verkhovna Rada's site shows (a Constitutional Court decision of that day declaring provisions unconstitutional); about 680 articles and the final and transitional provisions |
-| `labour-code/` | Кодекс законів про працю України (1971) | 1 | Oldest version available, dated 31 July 2026, the revision the Verkhovna Rada's site shows (basis: Law No. 4742-IX); about 290 articles and the final provisions |
+| `constitution/` | Конституція України (1996), чинна редакція | 1 | Найдавніша доступна версія, датована 1 січня 2020 року, — редакція, яку показує сайт Верховної Ради (підстава: Закон № 27-IX від 3 вересня 2019 року); 161 стаття з їхніми пронумерованими частинами та перехідні положення |
+| `criminal-code/` | Кримінальний кодекс України (Закон № 2341-III від 5 квітня 2001 року) | 1 | Найдавніша доступна версія, датована 18 вересня 2026 року, — редакція, яку показує сайт Верховної Ради (підстава: Закон № 4986-IX); близько 540 статей, а також прикінцеві та перехідні положення |
+| `civil-code/` | Цивільний кодекс України (Закон № 435-IV від 16 січня 2003 року) | 1 | Найдавніша доступна версія, датована 5 серпня 2026 року, — редакція, яку показує сайт Верховної Ради (підстава: Закон № 2541-IX); близько 1 300 статей і прикінцеві положення |
+| `criminal-procedure-code/` | Кримінальний процесуальний кодекс України (Закон № 4651-VI від 13 квітня 2012 року) | 1 | Найдавніша доступна версія, датована 21 липня 2026 року, — редакція, яку показує сайт Верховної Ради (рішення Конституційного Суду від того дня, яким положення визнано неконституційними); близько 680 статей, а також прикінцеві та перехідні положення |
+| `labour-code/` | Кодекс законів про працю України (1971) | 1 | Найдавніша доступна версія, датована 31 липня 2026 року, — редакція, яку показує сайт Верховної Ради (підстава: Закон № 4742-IX); близько 290 статей і прикінцеві положення |
 
-## Questions as git commands
+## Запитання як команди git
 
-| Question | Command |
+| Запитання | Команда |
 | --- | --- |
-| The whole act on a date | `python tools/on.py 2024-01-01 constitution` |
-| One provision on a date | `python tools/on.py 2024-01-01 constitution <unit>` (unit = file name without `.md`) |
-| Which law wrote each line of a provision? | `git blame constitution/<unit>.md` |
-| Every change to a provision, word by word | `git log -p --word-diff constitution/<unit>.md` |
-| Every law in the record, in order | `git log --reverse --format="%ad %an" --date=short main` |
+| Увесь акт на дату | `python tools/on.py 2024-01-01 constitution` |
+| Одне положення на дату | `python tools/on.py 2024-01-01 constitution <unit>` (unit — назва файлу без `.md`) |
+| Який закон написав кожен рядок положення? | `git blame constitution/<unit>.md` |
+| Кожна зміна положення, слово за словом | `git log -p --word-diff constitution/<unit>.md` |
+| Кожен закон в історії, по порядку | `git log --reverse --format="%ad %an" --date=short main` |
 
-After a rebuild, refresh tags with `git fetch --force --tags`: a plain fetch keeps stale tags.
+Після перезбирання оновіть теги командою `git fetch --force --tags`: звичайний fetch залишає застарілі теги.
 
-## What it does not show
+## Чого він не показує
 
-- **One version.** Only the current revision is built. The Constitution as adopted in 1996 and the revisions of 2006, 2010, 2011, 2013, 2014, 2016 and 2019 are not shown as separate versions; the single version is dated 1 January 2020 and credited to the publisher ("oldest version available").
-- **Apparatus.** Chapter headings, the list of amending laws, editorial notes in braces and the site's footer are left out. Articles 121-123 were repealed with Chapter VII in 2016 and are not in the text.
-- **Statutes.** Only the codes listed in the table are included, each as one version (the revision in force); the Commercial Code (Господарський кодекс) is not included because it ceased to be in force on 28 August 2025.
+- **Одна версія.** Зібрано лише чинну редакцію. Конституція в редакції, ухваленій у 1996 році, та редакції 2006, 2010, 2011, 2013, 2014, 2016 і 2019 років не показані як окремі версії; єдина версія датована 1 січня 2020 року, а її автором зазначено видавця («найдавніша доступна версія»).
+- **Довідковий апарат.** Заголовки розділів, перелік законів, якими внесено зміни, редакційні примітки у фігурних дужках і нижній колонтитул сайту не включено. Статті 121–123 виключено разом із розділом VII у 2016 році, і їх немає в тексті.
+- **Закони.** Включено лише кодекси, перелічені в таблиці, кожен однією версією (чинною редакцією); Господарський кодекс не включено, оскільки він втратив чинність 28 серпня 2025 року.
 
-## How it is built
+## Як його зібрано
 
-Lexifina reads the sources listed here and records each act's dated versions, and the laws that made each change, in one corpus file. `tools/build.py` writes this repository from that file, and the same corpus always gives the same commit hashes; `REPRODUCE.md` gives the details and the checks. A model (Claude) wrote Lexifina's code; it wrote no legal text, and no model runs when the history is built.
+Lexifina читає наведені тут джерела й записує датовані версії кожного акта та закони, якими внесено кожну зміну, в один файл корпусу. `tools/build.py` створює цей репозиторій із цього файлу, і той самий корпус завжди дає ті самі хеші комітів; `REPRODUCE.md` описує подробиці й перевірки. Код Lexifina написала модель (Claude); жодного юридичного тексту вона не писала, і під час збирання історії жодна модель не працює.
 
-Lexifina's code reads the saved Constitution page and writes `corpus.json`; `parse_parts.py` reads the saved code pages and writes one `corpus.d/` part per code. The shared builder turns `corpus.json` into the commits; `REPRODUCE.md` lists the sources, commands and decisions, and the result of the checks (every version read back from git on its in-force day and the day before, trailers parsed, no merge commits, dates never going backwards).
+Код Lexifina читає збережену сторінку Конституції та записує `corpus.json`; `parse_parts.py` читає збережені сторінки кодексів і записує окрему частину `corpus.d/` для кожного кодексу. Спільний збирач перетворює `corpus.json` на коміти; `REPRODUCE.md` перелічує джерела, команди й ухвалені рішення, а також результати перевірок (кожну версію прочитано назад із git у день набрання нею чинності та напередодні, трейлери розібрано, merge-комітів немає, дати ніколи не йдуть назад).
 
-## Sources
+## Джерела
 
-| Source | What | Notes |
+| Джерело | Що | Примітки |
 | --- | --- | --- |
-| [Verkhovna Rada, Zakonodavstvo Ukrainy](https://zakon.rada.gov.ua/laws/show/254%D0%BA/96-%D0%B2%D1%80) | Constitution of Ukraine, revision of 01.01.2020 | Open data of the Rada is CC BY 4.0. |
-| [Verkhovna Rada, Zakonodavstvo Ukrainy](https://zakon.rada.gov.ua/laws/show/2341-14) | Кримінальний кодекс України (2341-III of 5 April 2001), current revision | – |
-| [Verkhovna Rada, Zakonodavstvo Ukrainy](https://zakon.rada.gov.ua/laws/show/435-15) | Цивільний кодекс України (435-IV of 16 January 2003), current revision | – |
-| [Verkhovna Rada, Zakonodavstvo Ukrainy](https://zakon.rada.gov.ua/laws/show/4651-17) | Кримінальний процесуальний кодекс України (4651-VI of 13 April 2012), current revision | – |
-| [Verkhovna Rada, Zakonodavstvo Ukrainy](https://zakon.rada.gov.ua/laws/show/322-08) | Кодекс законів про працю України (322-VIII of 10 December 1971), current revision | – |
+| [Верховна Рада України, «Законодавство України»](https://zakon.rada.gov.ua/laws/show/254%D0%BA/96-%D0%B2%D1%80) | Конституція України, редакція від 01.01.2020 | Відкриті дані Ради поширюються на умовах CC BY 4.0. |
+| [Верховна Рада України, «Законодавство України»](https://zakon.rada.gov.ua/laws/show/2341-14) | Кримінальний кодекс України (2341-III від 5 квітня 2001 року), чинна редакція | – |
+| [Верховна Рада України, «Законодавство України»](https://zakon.rada.gov.ua/laws/show/435-15) | Цивільний кодекс України (435-IV від 16 січня 2003 року), чинна редакція | – |
+| [Верховна Рада України, «Законодавство України»](https://zakon.rada.gov.ua/laws/show/4651-17) | Кримінальний процесуальний кодекс України (4651-VI від 13 квітня 2012 року), чинна редакція | – |
+| [Верховна Рада України, «Законодавство України»](https://zakon.rada.gov.ua/laws/show/322-08) | Кодекс законів про працю України (322-VIII від 10 грудня 1971 року), чинна редакція | – |
 
-See `LICENSE` for the attribution.
+Відомості про зазначення авторства наведено у файлі `LICENSE`.
+
+Це переклад англійської версії ([README.en.md](README.en.md)); у разі розбіжностей переважає англійська версія.
+
+## Більше
+
+З репозиторію [lexifina/global-law](https://github.com/lexifina/global-law) (англійською):
+
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): усі функції та що має підтримувати кожен корпус (`git blame`, `law.py`, інструменти MCP)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): запитання й відповіді · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): як запропонувати зміни · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): MCP-сервер · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): як його зібрано · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): наскільки актуальний кожен корпус · [Моніторинг](https://github.com/lexifina/global-law/tree/main/monitoring): чи працюють оновлення · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): як кожне офіційне джерело відстежується на зміни
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): наскільки швидкі інструменти, за вимірами
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): графіки та зв’язки в праві всього світу
+- [Вразливості](https://github.com/lexifina/global-law/tree/main/vulnerabilities): помилки в актах у тому вигляді, як їх опубліковано
