@@ -30,7 +30,8 @@ The text is in Ukrainian, as zakon.rada.gov.ua publishes it. An English translat
 
 - **[Ask Claude about Ukrainian law](https://global-law.lexifina.com/v1/try_claude?country=ukraine)**: opens Claude with a first question ready.
 - **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=ukraine)**: the same question in ChatGPT.
-- **[Call the API in your browser](https://global-law.lexifina.com/v1/search_law?query=%D1%89%D0%BE%D1%80%D1%96%D1%87%D0%BD%D0%B0+%D0%B2%D1%96%D0%B4%D0%BF%D1%83%D1%81%D1%82%D0%BA%D0%B0&jurisdictions=ukraine)**: a search of Ukrainian law for "щорічна відпустка" (annual leave), returned as JSON. See the [documentation here](https://lexifina.com/api/global-law).
+- **[Search Ukrainian law on our site](https://lexifina.com/law?country=ukraine&q=%D1%89%D0%BE%D1%80%D1%96%D1%87%D0%BD%D0%B0+%D0%B2%D1%96%D0%B4%D0%BF%D1%83%D1%81%D1%82%D0%BA%D0%B0)**: a search for "щорічна відпустка" (annual leave), with each provision's text and its versions, no account needed.
+- **[Developer REST API](https://global-law.lexifina.com/v1/search_law?query=%D1%89%D0%BE%D1%80%D1%96%D1%87%D0%BD%D0%B0+%D0%B2%D1%96%D0%B4%D0%BF%D1%83%D1%81%D1%82%D0%BA%D0%B0&jurisdiction=ukraine)**: the same search as JSON, with no key. See the [documentation here](https://lexifina.com/api/global-law).
 
 Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in Ukrainian or in English.
 

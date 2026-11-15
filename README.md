@@ -30,7 +30,8 @@
 
 - **[Запитайте Claude про законодавство України](https://global-law.lexifina.com/v1/try_claude?country=ukraine)**: відкриває Claude з готовим першим запитанням.
 - **[Запитайте ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=ukraine)**: те саме запитання в ChatGPT.
-- **[Викличте API у браузері](https://global-law.lexifina.com/v1/search_law?query=%D1%89%D0%BE%D1%80%D1%96%D1%87%D0%BD%D0%B0+%D0%B2%D1%96%D0%B4%D0%BF%D1%83%D1%81%D1%82%D0%BA%D0%B0&jurisdictions=ukraine)**: пошук «щорічна відпустка» в законодавстві України, відповідь у JSON. Документація — [тут](https://lexifina.com/api/global-law).
+- **[Шукайте в законодавстві України на нашому сайті](https://lexifina.com/law?country=ukraine&q=%D1%89%D0%BE%D1%80%D1%96%D1%87%D0%BD%D0%B0+%D0%B2%D1%96%D0%B4%D0%BF%D1%83%D1%81%D1%82%D0%BA%D0%B0)**: пошук «щорічна відпустка», з текстом кожного положення та його редакціями, без облікового запису.
+- **[REST API для розробників](https://global-law.lexifina.com/v1/search_law?query=%D1%89%D0%BE%D1%80%D1%96%D1%87%D0%BD%D0%B0+%D0%B2%D1%96%D0%B4%D0%BF%D1%83%D1%81%D1%82%D0%BA%D0%B0&jurisdiction=ukraine)**: той самий пошук у форматі JSON, без ключа. Документація — [тут](https://lexifina.com/api/global-law).
 
 Обидва асистенти читають запис через безкоштовний конектор Global law (MCP, `https://global-law.lexifina.com/mcp`); першого разу чат дає посилання, яким конектор додається. Запитуйте українською або англійською.
 
