@@ -60,6 +60,7 @@ Each act's one version is its "oldest version available", credited to the publis
 - A second build from the same corpus gave identical hashes for every history commit and tag. Results are in `REPRODUCE.md`.
 - History is append-only: no merge commits, commit dates never go backwards, no commit dated in the future, and every commit's trailers parse.
 - The wording of the law is not changed: chapter headings, the site's editorial notes in braces and the list of amending laws are left out, and spacing, quotes and dashes are normalised (see `LICENSE`).
+- [vulnerabilities/](vulnerabilities/README.en.md): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -79,6 +80,10 @@ Each act's one version is its "oldest version available", credited to the publis
 See [`LICENSE`](LICENSE). The text of a law is an official document; the Verkhovna Rada publishes its open data under CC BY 4.0, and `LICENSE` gives the attribution. Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are CC0 1.0.
 
 No AI model wrote, translated or corrected legal text, and none runs when the history is built; the scripts were written by an AI model (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/README.en.md): charts drawn from this repository. Not drawn yet.
 
 ## More
 
